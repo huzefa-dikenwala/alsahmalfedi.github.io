@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<header><h1>AL SAHM AL FEDI TRADING LLC</h1></header>
+</head>
+<body><div class="container">
+			<a href="alfeditoys.html">Main Page</a>
+	<!-------- Enter GET, not Post ---->
+		<form method="GET">
+			<div>   First Name: <br><input type="text" name="firstname"><br></div>
+			<div>	Last Name:  <br><input type="text" name="lastname"><br></div>
+			<div>		Email:		<br><input type="Email" name="email"><br></div>
+			<div>		Password:   <br><input type="Password" name="password" min="5"><br></div>
+			<div>		Birthday:   <br><input type="date" name="birthday"><br></div>
+			<div>		Gender:</div><br>     
+					            <input type="radio" name="gender" value="male">Male<br>
+					            <input type="radio" name="gender" value="female">Female<br>
+					            <input type="radio" name="gender" value="other">Other<br>
+		    <div>        Favorite Past-Time Activity:</div> <br>
+		                        <input type="checkbox" name="eating" value="Eating">Eating<br>
+		                        <input type="checkbox" name="sleeping" value="Sleeping">Sleeping<br>            
+		                        <input type="checkbox" name="reading" value="Reading">Reading<br>
+		    <div>        Occupation: <br>
+		            <select name="Occupation">
+		            	<option value="student" name="student">Student</option>
+		            	<option value="job" name="job">Job</option>
+		            	<option value="unemployed" name="unemployed">Unemployed</option>
+		            </select><br></div>
+		        <input type="submit" name="register" value="Register">
+		        <input type="reset" name="reset">	
+            
+		</form>
+	</div>
+</body>
+</html>
